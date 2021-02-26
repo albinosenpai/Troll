@@ -1,13 +1,1 @@
--- If I release this folder then your probs looking at this and I know its shit but it works lol
-while wait(0.1) do
-    local devconsole = game.CoreGui:WaitForChild("DevConsoleMaster")
-    devconsole.DevConsoleWindow.DevConsoleUI:WaitForChild("MainView")
-    for __,v in pairs(devconsole.DevConsoleWindow.DevConsoleUI.MainView:GetDescendants()) do
-    if v:IsA("TextLabel") then
-    if string.match(v.Text, "HTTP Spy") then
-        devconsole:Destroy()
-        game.Players.LocalPlayer:Kick()
-    end
-    end
-    end
-end
+--print("albinohub")
